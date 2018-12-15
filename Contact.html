@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Contact Page</title>
+
+    <!-- Site theme -->
+    <link rel="stylesheet" href="Style.css">
+    <script src="script.js" type="application/javascript"></script>
+
+</head>
+
+<body>
+        <div class="container">
+            
+                <div name ="top" class="topnav">
+                    <a class ="logo" role = "img" aria-labelledby="star_id" href="index.html"><img src="Logo.jpg" border="0" Alt="Previous page" ></a>
+                    <a class="menu" href="Apartment.html">Apartment</a>
+                    <a class="menu" href="Business.html">Business Service</a>
+                    <a class="menu" href="Careers.html">Career</a>
+                    <a class="menu" href="About.html">About</a>
+                    <a class="menu" href="Contact.html">Contact</a>
+        
+                </div>
+            </div>
+        
+            <div class = "background">
+              <a href="#"><img src ="background.jpg"></a>
+            </div>
+            <div class ="job_title">REQUEST INFORMATION FORM</div>
+            <br>
+            <br>
+
+            <div class="container">
+                    <form action="/action_page.php">
+                      <label for="fname">First Name</label>
+                      <input type="text" oninvalid="alert('You must fill out the form!');"" id="fname" name="firstname" placeholder="Your name..">
+                  
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                      <label for="fname">Email</label>
+                      <input type="text" id="email" name="email" placeholder="Your email address..">
+                  
+                      <label for="country">Country</label>
+                      <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        <option value="usa">Mexico</option>
+                        <option value="usa">Asia</option>
+                        <option value="usa">European</option>
+                      </select>
+                  
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  
+                     
+                    </form>
+                    <button onclick="submit()" class="submit">Submit</button>
+                  </div>
+            
+    
+</body>
+
+<footer>
+    <div class="bottomnav">
+      <a class="menu" href="Apartment.html">Apartment</a>
+      <a class="menu" href="Business.html">Business Service</a>
+      <a class="menu" href="Careers.html">Career</a>
+      <a class="menu" href="About.html">About</a>
+      <a class="menu" href="Contact.html">Contact</a>
+    </div>
+</footer>
+
+</html>
